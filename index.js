@@ -25,4 +25,4 @@ client.on("interactionCreate", (interaction) => {
     return;    
 });
 
-client.login("MTM0MzI3NTc3NDg1MzEyMDA4Mg.GFp160.Nt8i62ZL0qASaHxmIJaTZYSJAWFLlmDPj-PIJo");
+client.login("token"); //I have replaced this token for security purpose and we can get is from "https://discord.com/developers/applications/1343275774853120082/bot" this URL.
