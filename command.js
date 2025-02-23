@@ -16,7 +16,7 @@ const rest = new REST({ version: '10' }).setToken("token"); //I have replaced th
 try {
     console.log('Started refreshing application (/) commands.');
   
-    rest.put(Routes.applicationCommands("1343275774853120082"), { body: commands });
+    rest.put(Routes.applicationCommands("Client_ID"), { body: commands });//I have replaced this Client_ID for security purpose and we can get is from "https://discord.com/developers/applications/1343275774853120082/oauth2" this URL.
   
     console.log('Successfully reloaded application (/) commands.');
   } catch (error) {
